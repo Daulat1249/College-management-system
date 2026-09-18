@@ -10,7 +10,9 @@ A RESTful backend API built with Java and Spring Boot that handles complex relat
 * **Tools:** Lombok, Postman, DBeaver
 
 ## 🗄️ Database Architecture
-This API handles the following relational mappings and automatically generates the necessary join tables and foreign key constraints:
+<img width="840" height="480" alt="Screenshot 2026-09-19 024933" src="https://github.com/user-attachments/assets/4e09537e-eb86-4f38-8096-113ab93905c3" />
+
+* This API handles the following relational mappings and automatically generates the necessary join tables and foreign key constraints:
 * **One-to-One:** `Student` ↔ `AdmissionRecord` 
 * **One-to-Many:** `Professor` ↔ `Subject`
 * **Many-to-Many:** `Professor` ↔ `Student`
